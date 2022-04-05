@@ -1,0 +1,19 @@
+.header{
+    padding: 20px 0px;
+    border-bottom: 3px solid #808080;
+}
+
+.header a{
+    text-decoration: none;
+    font-size: 30px;
+    margin: 0 20px;
+    color: black;
+    border-bottom: 3px solid black;
+}
+.header a:hover{
+    text-decoration: none;
+    font-size: 30px;
+    margin: 0 20px;
+    color: #f368e0;
+    border-bottom: 3px solid #f368e0;
+}
