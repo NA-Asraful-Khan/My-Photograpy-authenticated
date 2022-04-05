@@ -4,7 +4,7 @@ import './About.css'
 const About = () => {
     return (
         <div className='pd about'>
-            <img src="https://cdn-icons.flaticon.com/png/512/4140/premium/4140048.png?token=exp=1649164235~hmac=d0d2a967dc84dabf18c7966257fcafee" alt="" />
+            <img src="https://cdn-icons-png.flaticon.com/512/126/126327.png" alt="" />
 
             <h2>Nur A Asraful Khan</h2>
             <h2>SHIKHOR SOYON (Nick Name)</h2>
