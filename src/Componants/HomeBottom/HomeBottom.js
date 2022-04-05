@@ -3,9 +3,10 @@ import useReviewData from '../../customhook/ReviewData';
 import Review from '../Review/Review';
 import './HomeBottom.css'
 
-const HomeBottom = () => {
+const HomeBottom = (props) => {
     const [reviews, setReview] = useReviewData();
     const slicing = reviews.slice(0, 3);
+    console.log(props)
     return (
         <div className='home-bottom'>
             <h2>Reviews({slicing.length})</h2>
@@ -17,6 +18,7 @@ const HomeBottom = () => {
                     ></Review>)
                 }
             </div>
+            {props.children}
         </div>
     );
 };
