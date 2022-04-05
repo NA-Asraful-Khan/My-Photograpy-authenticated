@@ -6,7 +6,6 @@ import './HomeBottom.css'
 const HomeBottom = (props) => {
     const [reviews, setReview] = useReviewData();
     const slicing = reviews.slice(0, 3);
-    console.log(props)
     return (
         <div className='home-bottom'>
             <h2>Reviews({slicing.length})</h2>

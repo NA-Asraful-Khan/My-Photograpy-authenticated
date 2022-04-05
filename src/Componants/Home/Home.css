@@ -2,7 +2,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 100px;
 }
 .journey-left h1{
     font-size: 70px;
