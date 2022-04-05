@@ -1,9 +1,13 @@
 import React from 'react';
+import HomeBottom from '../HomeBottom/HomeBottom';
+import HomeTop from '../HomeTop/HomeTop';
+import './Home.css'
 
 const Home = () => {
     return (
         <div>
-            <h1>This is home</h1>
+            <HomeTop></HomeTop>
+            <HomeBottom></HomeBottom>
         </div>
     );
 };

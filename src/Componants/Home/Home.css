@@ -1,0 +1,46 @@
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.journey-left h1{
+    font-size: 70px;
+}
+.journey-left p{
+    font-size: 18px;
+    width: 70%;
+}
+
+.journey-left p a{
+    text-decoration: none;
+    color: #f368e0;
+}
+
+.journey-left>a{
+    text-decoration: none;
+    color: mintcream;
+    background-color: #f368e0;
+    padding: 10px 30px;
+    border-radius: 30px;
+    font-weight: bold;
+    display: inline-block;
+    margin: 10px 0;
+    transition: all 0.3s ease;
+
+
+    
+}
+
+.journey-left>a:hover{
+    padding: 10px 40px;
+
+    
+}
+
+.journey-right{
+    position: relative;
+    animation-name: movingCamera;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
