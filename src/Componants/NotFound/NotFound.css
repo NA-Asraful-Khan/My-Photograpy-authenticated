@@ -1,0 +1,36 @@
+.notFound {
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.notFound img{
+    width: 50%;
+}
+
+.notFound h2{
+    color: #f368e0;
+    font-size: 40px;
+}
+
+.notFound h3{
+    color: #838183;
+    font-size: 30px;
+}
+
+.notFound a{
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 10px 30px;
+}
+
+.notFound a:hover{
+    text-decoration: none;
+    font-size: 30px;
+    margin: 0 20px;
+    color: #f368e0;
+    border: 3px solid #f368e0;
+}
