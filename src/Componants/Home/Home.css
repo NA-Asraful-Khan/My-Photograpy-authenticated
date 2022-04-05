@@ -44,3 +44,27 @@
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
+.reviewDiv{
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.reviewButton{
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 10px 30px;
+    
+}
+.reviewButton:hover{
+    text-decoration: none;
+    font-size: 30px;
+    margin: 0 20px;
+    color: #f368e0;
+    border: 3px solid #f368e0;
+}
